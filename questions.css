@@ -1,0 +1,29 @@
+.questions-panel{border-top:1px solid #25363c}
+.site-footer{padding-top:0}
+.site-footer .footer-bottom{margin-top:0}
+.questions-list{margin-top:60px;border-top:1px solid #4c6f70}
+.question-item{border-bottom:1px solid #25363c}
+.question-item>summary{position:relative;display:flex;align-items:center;justify-content:space-between;gap:32px;list-style:none;padding:29px 0;cursor:pointer;font-size:clamp(18px,1.55vw,23px);font-weight:500;line-height:1.65;color:#edf7ff;transition:color .2s}
+.question-item>summary::-webkit-details-marker{display:none}
+.question-item>summary:hover,.question-item[open]>summary{color:#64efc6}
+.question-item>summary:focus-visible{outline:2px solid #64efc6;outline-offset:7px}
+.question-icon{position:relative;flex:none;width:20px;height:20px;color:#91d5e2}
+.question-icon:before,.question-icon:after{content:'';position:absolute;left:2px;right:2px;top:9px;height:1px;background:currentColor}
+.question-icon:after{transform:rotate(90deg);transition:transform .25s,opacity .25s}
+.question-item[open] .question-icon{color:#64efc6}
+.question-item[open] .question-icon:after{transform:rotate(0);opacity:0}
+.question-answer{overflow:hidden}
+.questions-more{display:flex;align-items:center;gap:12px;border:0;background:none;padding:24px 0;color:#afbdc2;font:400 14px/1.8 'Mission Sans',sans-serif;cursor:pointer;transition:color .2s}
+.questions-more:hover,.questions-more[aria-expanded="true"]{color:#64efc6}
+.questions-more svg{width:16px;height:16px;transition:transform .25s}
+.questions-more[aria-expanded="true"] svg{transform:rotate(180deg)}
+.more-questions{overflow:hidden}
+.more-questions .question-item:first-child{border-top:1px solid #25363c}
+.answer-body{max-width:820px;padding:0 40px 30px 0;color:#afbdc2;font-size:15px;line-height:1.95}
+.answer-body p{margin:0 0 13px}
+.answer-body p:last-child{margin-bottom:0}
+.answer-body strong{color:#edf7ff;font-weight:500}
+.answer-capabilities p{margin-bottom:22px}
+.answer-capabilities strong{display:block;margin-bottom:5px}
+@media(max-width:760px){.questions-list{margin-top:36px}.question-item>summary{padding:23px 0;font-size:17px;gap:22px}.question-icon{width:16px;height:16px}.question-icon:before,.question-icon:after{left:0;right:0;top:7px}.answer-body{padding:0 12px 25px 0;font-size:14px;line-height:1.95}}
+@media(prefers-reduced-motion:reduce){.question-item>summary,.question-icon:after,.questions-more,.questions-more svg{transition:none}}

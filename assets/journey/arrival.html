@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <base href="../../第三幕演示/宁波穿云版/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#02050d">
+  <link rel="icon" href="data:,">
+  <title>第三幕 · 穿云抵达灏米 — 灏米 AI 黑客松</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="vendor/gsap.min.js"></script>
+  <script defer src="vendor/ScrollTrigger.min.js"></script>
+  <script defer src="clouds.js"></script>
+  <script defer src="scene.js"></script>
+<style>body.embedded #arrival,body.embedded #status{display:none!important}body.embedded .stage{height:100%;min-height:0}</style>
+</head>
+<body>
+  <div id="journey">
+    <main class="stage" aria-label="第三幕：驶向地球，转向中国，沿海抵近宁波，穿云抵达灏米总部">
+      <img class="fallback" src="第二幕实际末帧.png" alt="深空中的遥远地球">
+      <canvas id="space" aria-hidden="true"></canvas>
+      <canvas id="earth" role="img" aria-label="随滚动抵近地球，转向中国，再沿海抵近浙江宁波"></canvas>
+      <div id="headquarters" aria-hidden="true"><img id="headquartersPhoto" src="../../灏米创新总部.png" alt="蓝调傍晚的灏米创新总部大楼"></div>
+      <div id="destination" aria-hidden="true"><span class="destination-dot"></span><span class="destination-label">宁波</span></div>
+      <canvas id="cloudFlight" aria-hidden="true"></canvas>
+      <div id="arrival" aria-hidden="true"><span>CHINA · NINGBO</span><p>灏米创新总部</p></div>
+      <video id="previousScene" muted playsinline preload="metadata" poster="第二幕实际末帧.png" src="../../第二幕素材/第二幕.mp4" hidden aria-label="第二幕衔接预览"></video>
+      <div class="shade" aria-hidden="true"></div>
+      <header class="chrome">
+        <a class="wordmark" href="#" id="home" aria-label="返回第三幕起点">HOOME<span>AI HACKATHON</span></a>
+        <span class="chapter">第三幕<span class="slash">/</span>穿云抵达灏米</span>
+        <div class="header-actions">
+          <button id="orbitStep" disabled>全球转动</button>
+          <button id="coastStep" disabled>宁波穿云</button>
+          <button id="compare" disabled>连看第二幕</button>
+          <button id="immerse">沉浸观看 <span aria-hidden="true">↗</span></button>
+        </div>
+      </header>
+      <div id="status" role="status">正在准备地球画面…</div>
+      <div id="scrollCue" class="chrome scroll-cue"><span class="cue-line" aria-hidden="true"></span><span>向下滚动，继续驶向地球</span></div>
+      <footer class="chrome">
+        <div class="phase"><span id="phaseNumber">01</span><span id="phaseName">接续深空</span></div>
+        <div class="transport">
+          <button id="play" disabled aria-label="自动演示">自动演示</button>
+          <input id="progress" aria-label="第三幕探索进度" type="range" min="0" max="1000" value="0" disabled>
+          <output id="percentage" for="progress">0%</output>
+        </div>
+        <button id="replay">回到起点 <span aria-hidden="true">↶</span></button>
+      </footer>
+      <button id="exitImmersive" hidden>退出沉浸 <span>Esc</span></button>
+    </main>
+  </div>
+</body>
+</html>

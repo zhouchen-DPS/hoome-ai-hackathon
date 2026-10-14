@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#030a0e">
+  <meta name="description" content="灏米创新首届 AI 黑客松：带上真实业务问题，连接伙伴、共创场景、验证价值。从真实问题，到 AI 成果。">
+  <title>灏米创新AI黑客松大赛 · Be An AI Maker</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="assets/typography/fonts.css">
+  <link rel="stylesheet" href="hero-d.css">
+  <link rel="stylesheet" href="portal-timeline.css">
+  <link rel="stylesheet" href="earth-brief.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="closing-scenes.css">
+  <link rel="stylesheet" href="recognition.css">
+  <link rel="stylesheet" href="questions.css">
+  <link rel="stylesheet" href="l2-courses.css">
+  <link rel="stylesheet" href="case-videos.css">
+  <script defer src="case-videos.js"></script>
+  <script defer src="l2-courses.js"></script>
+  <script defer src="questions.js"></script>
+  <script defer src="assets/vendor/gsap.min.js"></script>
+  <script defer src="assets/vendor/ScrollTrigger.min.js"></script>
+  <script defer src="hero-particles.js"></script>
+  <script defer src="portal-timeline.js"></script>
+  <script defer src="earth-brief.js"></script>
+  <script defer src="site.js"></script>
+  <noscript><style>.menu-toggle{display:none!important}.site-header{position:relative;flex-wrap:wrap;background:var(--bg)!important}.site-header nav{display:flex;position:static;flex-wrap:wrap;flex-direction:row;gap:16px;background:none;border:0;padding:0}.site-header nav>a{padding:4px 0}</style></noscript>
+</head>
+<body data-visual-quality="enhanced">
+  <a class="skip-link" href="#main-content">跳至活动内容</a>
+  <header class="site-header">
+    <a class="brand" href="#hackathon" aria-label="灏米 AI 黑客松，回到首页"><span class="brand-logo"><img src="assets/hoome-logo.png" width="2813" height="1197" alt="HOOME 灏米创新"></span><span class="brand-caption">AI HACKATHON</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span>菜单</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
+    <nav id="main-nav" aria-label="主要导航">
+      <a href="https://applink.feishu.cn/T99ZpTEGpENZ" target="_blank" rel="noopener noreferrer">AI激励办法</a>
+      <a href="https://applink.feishu.cn/T99XUWq8j5eL" target="_blank" rel="noopener noreferrer">AI能力标准</a>
+      <button class="l2-course-trigger" type="button" aria-haspopup="dialog" aria-controls="l2-course-dialog">L2冲刺课程</button>
+      <button class="contact-trigger" type="button" aria-haspopup="dialog" aria-controls="contact-dialog">联系项目组</button>
+      <a class="ai-platform-link" href="https://ai.hoomenology.com/" target="_blank" rel="noopener noreferrer">灏米AI平台<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+    </nav>
+  </header>
+  <dialog id="contact-dialog" class="contact-dialog" aria-labelledby="contact-title">
+    <div class="contact-dialog-heading"><h2 id="contact-title">联系项目组</h2><button class="contact-close" type="button" aria-label="关闭联系项目组" autofocus><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+    <p class="contact-intro">AI行动季项目组</p>
+    <dl class="contact-groups"><div><dt>IT/AI部门</dt><dd>Kanny、Jesse、游雅婷</dd></div><div><dt>HR部门</dt><dd>Jolin、周晨、飞飞</dd></div></dl>
+  </dialog>
+  <main>
+    <dialog id="l2-course-dialog" class="l2-course-dialog" aria-labelledby="l2-course-title" aria-describedby="l2-course-description">
+      <div class="l2-course-header"><h2 id="l2-course-title">五门课程<span>时间安排</span></h2><button class="l2-course-close" type="button" aria-label="关闭L2冲刺课程" autofocus><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+      <p id="l2-course-description" class="l2-course-description">每周1门课程，当周完成学习与课程小测。<br>所有课程完成，才能参加年底L2认证。</p>
+      <ol class="l2-course-timeline" aria-label="L2冲刺课程时间轴">
+        <li><div class="l2-course-copy"><span class="l2-course-number">第1课</span><h3>AI基础认知</h3><p>大模型基础与能力边界</p></div><span class="l2-course-node" aria-hidden="true"></span><p class="l2-course-date">10/19 — 10/25</p></li>
+        <li><div class="l2-course-copy"><span class="l2-course-number">第2课</span><h3>AI时代元能力</h3><p>学习、逻辑与表达</p></div><span class="l2-course-node" aria-hidden="true"></span><p class="l2-course-date">10/26 — 11/01</p></li>
+        <li><div class="l2-course-copy"><span class="l2-course-number">第3课</span><h3>如何与AI对话</h3><p>提示词的术与道</p></div><span class="l2-course-node" aria-hidden="true"></span><p class="l2-course-date">11/02 — 11/08</p></li>
+        <li><div class="l2-course-copy"><span class="l2-course-number">第4课</span><h3>AI责任使用</h3><p>结果核验与责任交付</p></div><span class="l2-course-node" aria-hidden="true"></span><p class="l2-course-date">11/09 — 11/15</p></li>
+        <li><div class="l2-course-copy"><span class="l2-course-number">第5课</span><h3>从产出到价值</h3><p>交付与价值表达</p></div><span class="l2-course-node" aria-hidden="true"></span><p class="l2-course-date">11/16 — 11/22</p></li>
+      </ol>
+      <div class="l2-course-actions"><a class="l2-course-enroll" href="https://saas.soke.cn/scheme?company_id=SOKE12gT3J1779101216&amp;sk_share_token=11AC5090-6180-45E2-99B3-92252E49BB50" target="_blank" rel="noopener noreferrer">我要上课<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div>
+    </dialog>
+    <section id="hackathon" class="opening has-earth-brief" aria-labelledby="hero-title">
+      <div class="opening-stage">
+        <div class="journey-media" aria-hidden="true">
+          <img class="hero-art" src="官网主视觉2.jpg" alt="" fetchpriority="high">
+          <video id="hero-video" class="hero-art" muted loop playsinline preload="none" poster="官网主视觉2.jpg" tabindex="-1" disablepictureinpicture data-src="assets/clarity/hero.mp4"></video>
+          <canvas id="hero-particles" aria-hidden="true" data-state="idle"></canvas>
+          <img id="journey-poster" src="第一幕视频/第一幕-16-9-30帧-末帧.png" alt="" decoding="async">
+          <video id="opening-video" muted playsinline preload="none" poster="官网主视觉2.jpg" tabindex="-1" data-src="assets/clarity/opening.mp4"></video>
+          <video id="portal-video" muted playsinline preload="none" poster="第一幕视频/第一幕-16-9-30帧-末帧.png" tabindex="-1" data-src="assets/clarity/portal.mp4"></video>
+          <iframe id="earth-frame" title="从深空穿云抵达灏米总部" tabindex="-1" inert data-src="assets/journey/arrival.html?embed=1" loading="lazy"></iframe>
+          <div class="opening-scrim"></div>
+          <div class="arrival-fade"></div>
+        </div>
+        <div class="hero-copy hero-direction-d page-width">
+          <div class="hero-axis">
+            <h1 id="hero-title" aria-label="灏米创新首届 AI黑客松 大赛">
+              <span class="event-name">灏米创新首届</span>
+              <span class="hero-event-line hero-title-message">
+                <svg width="0" height="0" aria-hidden="true" style="position:absolute;pointer-events:none"><defs><filter id="hero-title-mint" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0 0 0 0 0.137255 0 0 0 0 0.992157 0 0 0 0 0.772549 0 0 0 1 0"/></filter></defs></svg>
+                <span class="hero-title-art" role="img" aria-label="AI 黑客松">
+                  <span class="hero-title-fragment hero-title-ai" aria-hidden="true"><img src="assets/typography/ai-hackathon-juejianghei.png" width="2400" height="520" alt="" fetchpriority="high"></span>
+                  <span class="hero-title-fragment hero-title-cn" aria-hidden="true"><img src="assets/typography/ai-hackathon-juejianghei.png" width="2400" height="520" alt=""></span>
+                </span>
+                <span class="hero-competition">大赛</span>
+              </span>
+            </h1>
+            <p class="hero-motto hero-title-message">Be An <span>AI Maker</span></p>
+            <p class="hero-description">带上工作中的真实问题，和伙伴们一起，<br>让 AI 在业务中产生价值。</p>
+            <div class="hero-actions"><a class="button" href="https://zjnbhoome.feishu.cn/share/base/form/shrcnPpKLIKyBcz1NATgKCPhIqg" target="_blank" rel="noopener noreferrer">我要报名参赛（预）<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><a class="text-link" href="#portal-timeline">AI行动季Roadmap <span aria-hidden="true">→</span></a></div>
+          </div>
+        </div>
+        <section id="portal-timeline" class="portal-route" aria-labelledby="route-heading">
+          <div class="route-shade" aria-hidden="true"></div>
+          <div class="route-heading"><h2 id="route-heading">灏米创新AI行动季</h2><span>ROADMAP</span></div>
+          <div class="route-track" aria-hidden="true">
+            <div class="route-track-base"></div><div class="route-track-echo"></div>
+            <div class="route-track-travel"></div><div class="route-track-arrival"></div>
+            <div class="route-beam"><i></i></div>
+            <div class="route-track-ticks"></div>
+          </div>
+          <ol class="route-events" aria-label="全员AI行动季九个事项，按时间顺序排列">
+            <li class="route-event" data-position="0.231"><span class="route-stem" aria-hidden="true"></span><span class="route-node" aria-hidden="true"><i></i></span><h3>全员AI行动季发布会</h3></li>
+            <li class="route-event is-key" data-position="0.278"><span class="route-stem" aria-hidden="true"></span><span class="route-node" aria-hidden="true"><i></i></span><h3>首届AI黑客松发布</h3></li>
+            <li class="route-event is-key" data-position="0.405"><span class="route-stem" aria-hidden="true"></span><span class="route-node" aria-hidden="true"><i></i></span><h3>2天1晚<br>AI黑客松先锋营</h3></li>
+            <li class="route-event is-key" data-position="0.493"><span class="route-stem" aria-hidden="true"></span><span class="route-node" aria-hidden="true"><i></i></span><h3>AI黑客松<br>部门项目集结</h3></li>
+            <li class="route-event is-key" data-position="0.657"><span class="route-stem" aria-hidden="true"></span><span class="route-node" aria-hidden="true"><i></i></span><h3>AI黑客松加速营</h3></li>
+            <li class="route-event" data-position="0.750"><span class="route-stem" aria-hidden="true"></span><span class="route-node" aria-hidden="true"><i></i></span><h3>全员AI能力L2<br>考核认定</h3></li>
+            <li class="route-event is-key" data-position="0.838"><span class="route-stem" aria-hidden="true"></span><span class="route-node" aria-hidden="true"><i></i></span><h3>灏米创新AI年度成果<br>评审&amp;AI黑客松决赛</h3></li>
+            <li class="route-event is-key" data-position="0.882"><span class="route-stem" aria-hidden="true"></span><span class="route-node" aria-hidden="true"><i></i></span><h3>各部门AI先锋认证</h3></li>
+            <li class="route-event" data-position="1.000"><span class="route-stem" aria-hidden="true"></span><span class="route-node" aria-hidden="true"><i></i></span><h3>AI奖项颁奖</h3></li>
+          </ol>
+          <div class="route-months" aria-label="10月至次年1月">
+            <span data-position="0.205"><b>10</b>月</span><span data-position="0.390"><b>11</b>月</span><span data-position="0.615"><b>12</b>月</span><span data-position="0.805"><b>01</b>月</span>
+          </div>
+          <p class="route-learning">全员AI能力课程自主学习与练习</p>
+        </section>
+        <div id="earth-brief" class="earth-brief" role="group" aria-label="AI黑客松目标、安排与组队要求">
+          <div class="brief-space-shade" aria-hidden="true"></div>
+          <div class="brief-planet-light" aria-hidden="true"></div>
+    <svg class="orbital-space" viewBox="0 0 1440 900" preserveAspectRatio="none" aria-hidden="true">
+      <defs>
+        <linearGradient id="brief-orbit-ink"><stop stop-color="#57dfff" stop-opacity="0"/><stop offset=".44" stop-color="#57dfff" stop-opacity=".58"/><stop offset="1" stop-color="#57dfff" stop-opacity="0"/></linearGradient>
+        <radialGradient id="brief-node-light"><stop stop-color="#edffff"/><stop offset=".15" stop-color="#6ce9ff" stop-opacity=".8"/><stop offset="1" stop-color="#57dfff" stop-opacity="0"/></radialGradient>
+      </defs>
+      <g class="orbits"><ellipse cx="749" cy="450" rx="426" ry="358" transform="rotate(-23 749 450)"/><ellipse class="outer-orbit" cx="749" cy="450" rx="457" ry="388" transform="rotate(-23 749 450)"/><path class="orbit-arc" d="M 402 625 A 426 358 -23 0 0 1028 700"/></g>
+      <g class="connections"><path data-connect="goals" d="M 923 294 L 980 222 L 1045 222"/><path data-connect="schedule" d="M 554 536 L 462 584 L 363 584"/><path data-connect="team" d="M 933 603 L 982 638 L 1045 638"/></g>
+      <g class="beacons"><g data-beacon="goals"><circle class="halo" cx="923" cy="294" r="28"/><circle class="core" cx="923" cy="294" r="3"/><circle class="reticle" cx="923" cy="294" r="8"/></g><g data-beacon="schedule"><circle class="halo" cx="554" cy="536" r="28"/><circle class="core" cx="554" cy="536" r="3"/><circle class="reticle" cx="554" cy="536" r="8"/></g><g data-beacon="team"><circle class="halo" cx="933" cy="603" r="28"/><circle class="core" cx="933" cy="603" r="3"/><circle class="reticle" cx="933" cy="603" r="8"/></g></g>
+    </svg>
+    <section class="module brief-panel goals brief-goals" data-brief="goals" aria-labelledby="brief-goals-heading">
+      <h2 id="brief-goals-heading" class="module-heading"><span class="section-number">01</span>各一级部门关注</h2>
+      <div class="module-rule" aria-hidden="true"><span></span></div>
+      <ol class="result-chain">
+        <li data-brief-row><span class="result-node" aria-hidden="true"></span><h3>找准业务场景</h3><p>在本部门 AI先锋支持下，<br class="desktop-break">筛选优先探索的真实业务场景。</p></li>
+        <li data-brief-row><span class="result-node" aria-hidden="true"></span><h3>推动项目落地</h3><p>部门确认场景，组队验证价值。</p></li>
+        <li data-brief-row><span class="result-node" aria-hidden="true"></span><h3>沉淀可复用成果</h3><p>验证业务改善，积累可复用成果。</p></li>
+      </ol>
+      <p class="goal-end" data-brief-row>成果参加<strong>年度评审暨黑客松决赛</strong>，<br class="desktop-break">按规则激励与认定。</p>
+    </section>
+    <section class="module brief-panel schedule brief-schedule" data-brief="schedule" aria-labelledby="brief-schedule-heading">
+      <h2 id="brief-schedule-heading" class="module-heading"><span class="section-number">02</span>AI黑客松具体安排</h2>
+      <div class="module-rule" aria-hidden="true"><span></span></div>
+      <ol class="flight-line">
+        <li class="flight-stop" data-brief-row><span class="stop-node" aria-hidden="true"></span><time class="flight-date">10<span>月下旬</span></time><h3>提报 AI先锋候选人</h3><ul class="flight-actions"><li>各部门推荐候选人，开启探索。</li><li>全员也可进行AI黑客松项目预报名</li></ul></li>
+        <li class="flight-stop" data-brief-row><span class="stop-node" aria-hidden="true"></span><time class="flight-date">11<span>月上旬</span></time><h3>AI先锋营举办</h3><p>AI先锋候选人集中学习与实践。</p></li>
+        <li class="flight-stop" data-brief-row><span class="stop-node" aria-hidden="true"></span><time class="flight-date">11<i>—</i>12<span>月</span></time><h3>项目确认、提报与孵化</h3><p>AI先锋候选人将营中所学带回部门，<br class="desktop-break">赋能各部门参赛项目落地。</p><p class="flight-deliverable">形成各部门AI参赛项目列表。</p></li>
+        <li class="flight-stop" data-brief-row><span class="stop-node" aria-hidden="true"></span><time class="flight-date">12<span>月中旬</span></time><h3>AI先锋中期加速营</h3><p>带着项目进展，继续打磨与加速。</p></li>
+        <li class="flight-stop finale" data-brief-row><span class="stop-node" aria-hidden="true"></span><time class="flight-date">1<span>月上旬</span></time><h3>年度 AI 成果评审<br>暨黑客松决赛</h3><p>各部门展示成果，参与评审。</p></li>
+      </ol>
+    </section>
+    <section class="module brief-panel team brief-team" data-brief="team" aria-labelledby="brief-team-heading">
+      <h2 id="brief-team-heading" class="module-heading"><span class="section-number">03</span>先锋营后，如何组队？</h2>
+      <div class="module-rule" aria-hidden="true"><span></span></div>
+      <p class="team-intro" data-brief-row>项目经 AI先锋初步评估，再提报。</p>
+      <div class="team-limits" data-brief-row><div><span class="limit-label">每个项目不超过</span><p><b>3</b><span>人</span></p></div><div><span class="limit-label">每人参与建议不超过</span><p><b>2</b><span>项</span></p></div></div>
+      <ul class="team-rules"><li data-brief-row><span class="rule-tick" aria-hidden="true"></span><p><strong>2—3人组队</strong>，明确每人分工。</p></li><li data-brief-row><span class="rule-tick" aria-hidden="true"></span><p>原则上由业务部门自主组队，<br>鼓励跨部门合作。</p></li><li data-brief-row><span class="rule-tick" aria-hidden="true"></span><p>AI部门仅作为<strong>外脑</strong>参与。</p></li></ul>
+    </section>
+    <div class="planet-caption" aria-hidden="true"><span class="caption-line"></span><span>从真实任务出发</span><strong>走向可复用的组织成果</strong></div>
+    <div class="stage-edge top-left" aria-hidden="true"></div><div class="stage-edge bottom-right" aria-hidden="true"></div>
+        </div>
+        <div class="story-copy closing-story work-copy page-width" data-story="work" aria-hidden="true">
+          <p class="story-title" aria-label="AI黑客松，让AI业务价值发生。"><span class="work-label" data-story-line><span class="closing-latin">AI</span>黑客松，</span><span class="work-statement" data-story-line>让<span class="work-value"><span class="closing-latin">AI</span>业务价值</span>发生。</span></p>
+        </div>
+        <div class="story-copy closing-story arrival-copy page-width" data-story="arrival" aria-hidden="true">
+          <p class="story-title" aria-label="HOOMER, BE AN AI MAKER."><span class="arrival-address" data-story-line>HOOMER,</span><span class="arrival-invitation" data-story-line>BE AN</span><span class="arrival-maker" data-story-line>AI MAKER.</span></p>
+        </div>
+        <div class="opening-bottom page-width">
+          <button class="explore-button" type="button" data-explore><span class="explore-track" aria-hidden="true"></span>向下探索</button>
+          <a class="journey-skip" href="#earth-brief">直接了解活动<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="journey-status" role="status" hidden>画面加载中，可继续滚动或直接了解活动。</div>
+      </div>
+    </section>
+
+    <div id="main-content" tabindex="-1"></div>
+
+    <section id="outcomes" class="recognition-section policy-section" aria-labelledby="outcomes-title">
+      <div class="page-width">
+        <h2 id="outcomes-title" class="policy-title">让成果被使用，<br><span>让贡献被看见。</span></h2>
+        <div class="policy-block rewards-block">
+          <h3 class="policy-subtitle"><span>AI黑客松</span> 项目奖励</h3>
+          <div class="award-grid">
+            <article class="award"><h4>AI落地奖</h4><p class="award-amount"><span>¥</span>1,000</p><ul><li>源于真实工作任务</li><li>可持续，已被复用</li><li>有价值改善数据，允许尚无法由官方系统证明</li></ul></article>
+            <article class="award"><h4>AI价值奖</h4><p class="award-amount"><span>¥</span>3,000</p><ul><li>源于真实工作任务，可持续且已被复用</li><li>在灏米AI平台发布沉淀</li><li>有明确价值改善数据，需官方系统证明</li></ul></article>
+            <article class="award"><h4>AI标杆奖</h4><p class="award-amount"><span>¥</span>8,000</p><ul><li>一级部门已形成AI能力地图</li><li>项目AI链路完成度 ≥50%，且持续运行</li><li>在灏米AI平台发布沉淀</li><li>有显著价值改善数据，需官方系统证明</li></ul></article>
+            <article class="award award-excellence"><h4>AI卓越奖</h4><p class="award-amount award-infinity">+∞</p><p class="award-status">该奖项1年后启用</p><ul><li>形成跨一级部门公司级端到端AI价值链</li><li>项目AI链路完成度 ≥50%，且持续运行</li><li>在灏米AI平台发布沉淀</li><li>有极大的价值改善数据，需官方系统证明</li></ul></article>
+          </div>
+
+          <div class="award-guidance">
+            <p>1、为鼓励各部门积极探索AI应用，项目评审条件作为项目认定的原则性指引，评审过程将结合AI项目实际业务场景、运行情况、价值证据及可持续的复用程度进行综合判断，具体的奖项认定标准请查阅《灏米创新AI激励管理办法V1.0》；</p>
+            <p>2、可参考的数据价值维度：</p>
+            <ul>
+              <li><span>前台：</span>收入、转化率、活动效率、获客效果、用户结果、经营成本等；</li>
+              <li><span>中台：</span>周期缩短、质量提升、差错减少、交接效率、交付效率、复用程度等；</li>
+              <li><span>后台：</span>风险降低、决策效率、内部服务体验、数据质量、知识资产沉淀等。</li>
+            </ul>
+            <p class="award-submission-note">3、建议需要竞争参与年底AI激励的项目，统一通过首期的AI黑客松的提报路径，即可以通过预报名AI黑客松，也可以在首期AI先锋营后，通过各部门AI先锋候选人进行提报。</p>
+          </div>
+        </div>
+        <div class="policy-block certification-block">
+          <h3 class="policy-subtitle"><span>AI黑客松</span> 人才认证</h3>
+          <div class="certification-grid">
+            <article class="certification"><div class="certification-copy"><h4>AI先锋</h4><p>AI黑客松决赛，将对各部门提报的AI先锋候选人进行综合评审，最终认证为“AI先锋”的小伙伴，将默认达到<strong>L3认证标准</strong>。</p></div><div class="certification-level" aria-hidden="true">L3</div></article>
+            <article class="certification"><div class="certification-copy"><h4>AI项目负责人</h4><p>获任意AI奖项的项目负责人，默认达到<strong>L2认证标准</strong>。</p><p class="certification-note">（不包括2026年年底的L2认证考核，适用于2027年及之后的L2认证）</p></div><div class="certification-level" aria-hidden="true">L2</div></article>
+          </div>
+        </div>
+        <div id="project-review" class="policy-block review-block" aria-labelledby="review-title">
+          <h3 id="review-title" class="policy-subtitle"><span>AI黑客松</span> 项目申报与评审</h3>
+          <p class="review-unit"><span>申报单元</span>一级部门 AI 业务场景任务项目</p>
+          <ol class="review-flow"><li><span>01</span><h4>公司统一发布项目申报通知</h4></li><li><span>02</span><h4>各部门进行项目申报</h4></li><li><span>03</span><h4>公司组织综合评审</h4></li><li><span>04</span><h4>结果公布并激励</h4></li></ol>
+          <div class="review-preparation"><h4 class="review-label">申报前准备</h4><div class="preparation-grid"><article><h5>场景与运行</h5><p>按照对应奖项要求，准备业务场景与项目运行情况。</p></article><article><h5>人员与分工</h5><p>1名项目负责人，其他成员原则上不超过2名，分工清晰。</p></article><article><h5>价值与证据</h5><p>准备运行记录、数据口径、价值证明及复用情况等验证数据。</p></article></div></div>
+          <div class="review-calendar"><h4 class="review-label">评审周期</h4><ol><li><span>2026 H2</span><p>12月<span>—</span>次年1月</p></li><li><span>2027 H1</span><p>6月<span>—</span>7月</p></li><li><span>2027 H2</span><p>12月<span>—</span>次年1月</p></li></ol></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="ai-cases" class="policy-section case-section" aria-labelledby="cases-title">
+      <div class="page-width">
+        <h2 id="cases-title" class="policy-title">AI<span>应用案例</span></h2>
+        <div class="case-grid">
+          <article class="case-item">
+            <button class="case-cover" type="button" aria-label="播放ASIN AI竞品监控，朱碧骏，1分33秒" aria-haspopup="dialog" aria-controls="case-player" data-case-src="assets/cases/asin-monitor.mp4" data-case-title="ASIN AI竞品监控" data-case-person="朱碧骏 · 综合品类事业部">
+              <img src="assets/cases/asin-monitor.jpg" width="1280" height="720" alt="朱碧骏介绍ASIN AI竞品监控" loading="lazy" decoding="async">
+              <span class="case-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 6 9 6-9 6Z"/></svg></span><span class="case-duration" aria-hidden="true">1:33</span>
+            </button>
+            <h3>ASIN AI竞品监控</h3><p>朱碧骏<span>综合品类事业部</span></p>
+          </article>
+          <article class="case-item">
+            <button class="case-cover" type="button" aria-label="播放目标管理型AI周报看板，段培培，1分18秒" aria-haspopup="dialog" aria-controls="case-player" data-case-src="assets/cases/weekly-dashboard.mp4" data-case-title="目标管理型AI周报看板" data-case-person="段培培 · 流程IT中心">
+              <img src="assets/cases/weekly-dashboard.jpg" width="1280" height="720" alt="段培培介绍目标管理型AI周报看板" loading="lazy" decoding="async">
+              <span class="case-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 6 9 6-9 6Z"/></svg></span><span class="case-duration" aria-hidden="true">1:18</span>
+            </button>
+            <h3>目标管理型AI周报看板</h3><p>段培培<span>流程IT中心</span></p>
+          </article>
+          <article class="case-item">
+            <button class="case-cover" type="button" aria-label="播放TK内容生成AI工作流，郭雪侠，1分35秒" aria-haspopup="dialog" aria-controls="case-player" data-case-src="assets/cases/tiktok-workflow.mp4" data-case-title="TK内容生成AI工作流" data-case-person="郭雪侠 · TikTok运营中心">
+              <img src="assets/cases/tiktok-workflow.jpg" width="1280" height="720" alt="郭雪侠介绍TK内容生成AI工作流" loading="lazy" decoding="async">
+              <span class="case-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 6 9 6-9 6Z"/></svg></span><span class="case-duration" aria-hidden="true">1:35</span>
+            </button>
+            <h3>TK内容生成AI工作流</h3><p>郭雪侠<span>TikTok运营中心</span></p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <dialog id="case-player" class="case-player" aria-labelledby="case-player-title" aria-describedby="case-player-person">
+      <div class="case-player-heading"><div><h2 id="case-player-title">案例视频</h2><p id="case-player-person"></p></div><button class="case-player-close" type="button" aria-label="关闭案例视频" autofocus><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+      <video class="case-player-video" controls playsinline preload="none" aria-label="案例视频播放器"></video>
+      <p class="case-player-error" role="status" hidden>视频暂未加载成功，请关闭后重新打开。</p>
+    </dialog>
+    <section id="questions" class="policy-section questions-panel" aria-labelledby="faq-title">
+      <div class="page-width">
+        <h2 id="faq-title" class="policy-title">你可能<span>还想知道</span></h2>
+        <div class="questions-list">
+          <details class="question-item"><summary>如何成为AI先锋候选人？<span class="question-icon" aria-hidden="true"></span></summary><div class="question-answer"><div class="answer-body"><p><strong>个人自荐：</strong>可向一级部门负责人，或AI行动季项目组的 Jesse、Chen、飞飞自荐。</p><p><strong>部门推荐：</strong>一级部门可向AI行动季项目组推荐候选人。</p></div></div></details>
+          <details class="question-item"><summary>每个部门可以推荐几名AI先锋候选人？<span class="question-icon" aria-hidden="true"></span></summary><div class="question-answer"><div class="answer-body"><p><strong>每个一级部门至少1名。</strong></p><p>当下可参考候选人与部门人数 <strong>1∶25至1∶20</strong> 的比例计算。例如，某部门有20人，可提报1人。</p><p>不按人数机械分配，可按业务条线增补。</p></div></div></details>
+          <details class="question-item"><summary>成为AI先锋候选人，就能通过L3认证吗？<span class="question-icon" aria-hidden="true"></span></summary><div class="question-answer"><div class="answer-body"><p><strong>不是。</strong>AI黑客松决赛将对AI先锋候选人进行统一认证<strong>成为正式AI先锋，同时默认通过L3认证</strong>。</p></div></div></details>
+          <details class="question-item"><summary>参加黑客松，还需要参加年底L2考核吗？<span class="question-icon" aria-hidden="true"></span></summary><div class="question-answer"><div class="answer-body"><p><strong>仍需参加。</strong>年底的L2能力认证考核，是一次全员性质的考核。</p></div></div></details>
+          <button class="questions-more" type="button" aria-expanded="false" aria-controls="more-questions" hidden><span>查看更多</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+          <div id="more-questions" class="more-questions">
+          <details class="question-item"><summary>AI先锋候选人需要哪些能力？<span class="question-icon" aria-hidden="true"></span></summary><div class="question-answer"><div class="answer-body answer-capabilities"><p><strong>懂业务 Know-How</strong>熟悉所在业务的流程、关键任务与痛点，能够带来真实业务问题。</p><p><strong>AI学习热情</strong>对AI具备基本认知或实践经验，有主动探索的意愿，愿意持续学习并动手实践。</p><p><strong>能推动项目</strong>愿意牵头或参与AI项目，连接业务人员与相关资源，推动方案建设、业务试用和效果验证。</p><p><strong>综合素质</strong>具备良好的问题分析、沟通协作与执行能力，能够拆解复杂问题、主动应对困难，对结果负责，并根据反馈持续改进。</p></div></div></details>
+          <details class="question-item"><summary>每个部门可以申报多少个AI项目？<span class="question-icon" aria-hidden="true"></span></summary><div class="question-answer"><div class="answer-body"><p><strong>不限。</strong></p></div></div></details>
+          <details class="question-item"><summary>AI先锋与AI项目负责人有什么区别？<span class="question-icon" aria-hidden="true"></span></summary><div class="question-answer"><div class="answer-body"><p><strong>AI先锋：</strong>相当于各一级部门的AI牵头人，赋能并协助部门伙伴发起AI项目。</p><p><strong>AI项目负责人：</strong>是发起具体项目的直接负责人。</p></div></div></details>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer page-width"><div class="footer-bottom"><a class="brand-name" href="#hackathon" aria-label="回到首页">HOOME<span class="brand-dot">.</span></a><span>灏米创新 · 全员 AI 行动季</span><a class="text-link" href="#hackathon">回到顶部<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a></div></footer>
+</body>
+</html>

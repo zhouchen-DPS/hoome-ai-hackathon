@@ -1,0 +1,62 @@
+/* Rewards and application details continue the journey's restrained visual language. */
+.policy-section{font-family:'Mission Sans','Microsoft YaHei',sans-serif;color:#edf7ff;padding-block:clamp(90px,9vw,150px);background:#030a0e;scroll-margin-top:100px}
+.recognition-section{border-top:1px solid #25363c}
+.policy-section .policy-title{font-family:inherit;font-size:clamp(36px,4vw,62px);font-weight:500;line-height:1.45;letter-spacing:-.025em;margin:0;color:#edf7ff}
+.policy-title>span{color:#64efc6}
+.policy-block{margin-top:68px}
+.policy-section .policy-subtitle{position:relative;display:flex;align-items:baseline;flex-wrap:wrap;gap:8px 18px;font-size:clamp(30px,2.5vw,36px);font-weight:600;line-height:1.5;letter-spacing:0;margin:0 0 38px;padding-bottom:23px;color:#edf7ff}
+.policy-subtitle>span{color:#afbdc2;font-size:19px;font-weight:400;margin-right:0}
+.policy-subtitle:after{content:'';position:absolute;left:0;bottom:0;width:42px;height:2px;background:#64efc6}
+.award-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid #4c6f70}
+.award{position:relative;padding:30px 26px 24px 0;min-width:0}
+.award+.award{border-left:1px solid #25363c;padding-left:26px}
+.policy-section .award h4{font-size:20px;font-weight:500;line-height:1.5;margin:0;color:#edf7ff}
+.policy-section .award-amount{font-family:'Study Oxanium',sans-serif;font-size:clamp(36px,3.8vw,58px);line-height:1.15;letter-spacing:-.025em;color:#64efc6;margin:18px 0 44px;font-weight:500;white-space:nowrap}
+.award-amount>span{font-size:.43em;margin-right:6px;vertical-align:.12em}
+.policy-section .award-infinity{letter-spacing:.04em}
+.policy-section .award-status{position:absolute;top:134px;color:#afbdc2;font-size:12px;line-height:1.6;margin:0}
+.award ul{list-style:none;margin:0;padding:0;color:#afbdc2;font-size:14px;line-height:1.85}
+.award li{position:relative;padding-left:13px;margin:0 0 10px}
+.award li:before{content:'';position:absolute;left:0;top:.84em;width:4px;height:4px;background:#649e96}
+.award-common{display:flex;gap:30px;align-items:baseline;border-top:1px solid #25363c;border-bottom:1px solid #25363c;padding:20px 0}
+.policy-section .award-common h4{font-size:13px;color:#edf7ff;font-weight:500;white-space:nowrap;margin:0}
+.policy-section .award-common p{display:flex;flex-wrap:wrap;gap:10px 26px;font-size:13px;color:#afbdc2;line-height:1.8;margin:0}
+.award-common p>span{position:relative}
+.award-common p>span:before{content:'';position:absolute;left:-14px;top:.9em;width:2px;height:2px;background:#649e96}
+.certification-block{margin-top:112px}
+.award-guidance{margin-top:0;padding-top:24px;border-top:1px solid #25363c;max-width:1060px;color:#afbdc2;font-size:12px;line-height:1.95}
+.award-guidance p{margin:0 0 12px}
+.award-guidance ul{list-style:none;margin:0;padding:0}
+.award-guidance .award-submission-note{margin-top:12px;margin-bottom:0}
+.award-guidance li{display:flex;align-items:baseline;margin-top:5px}
+.award-guidance li>span{flex:none;color:#c4d3dc}
+.recognition-section .review-block{margin-top:112px;scroll-margin-top:110px}
+.certification-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px}
+.certification{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;border-top:1px solid #4c6f70;padding-top:28px;align-items:start}
+.policy-section .certification h4{font-size:21px;line-height:1.5;font-weight:500;margin:0 0 15px}
+.policy-section .certification p{font-size:15px;line-height:1.95;color:#afbdc2;margin:0;max-width:390px}
+.certification strong{color:#edf7ff;font-weight:500}
+.certification-level{font-family:'Study Oxanium',sans-serif;font-size:clamp(44px,4.4vw,68px);font-weight:500;line-height:1.1;color:#64efc6;letter-spacing:-.025em;margin-top:2px}
+.policy-section .certification .certification-note{font-size:12px;line-height:1.85;margin-top:18px;color:#afbdc2}
+.review-section{border-top:1px solid #25363c;background:linear-gradient(180deg,#061116 0%,#030a0e 100%)}
+.policy-section .review-unit{font-size:15px;line-height:1.8;color:#afbdc2;margin:0}
+.review-unit>span{font-size:12px;color:#91d5e2;margin-right:24px}
+.review-flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));padding:0;margin:58px 0 74px;list-style:none}
+.review-flow li{position:relative;padding:0 0 0 24px;border-top:1px solid #4c6f70}
+.review-flow li:first-child{padding-left:0}
+.review-flow li:before{content:'';position:absolute;top:-4px;left:24px;width:7px;height:7px;border:1px solid #64efc6;background:#061116}
+.review-flow li:first-child:before{left:0;background:#64efc6}
+.review-flow li>span{display:block;font-family:'Study Oxanium',sans-serif;color:#91d5e2;font-size:13px;margin-top:23px;letter-spacing:.06em}
+.policy-section .review-flow h4{font-size:22px;line-height:1.6;font-weight:500;margin:10px 0 0}
+.policy-section .review-label{font-size:14px;font-weight:500;color:#91d5e2;line-height:1.8;margin:0}
+.review-preparation,.review-calendar{display:grid;grid-template-columns:150px minmax(0,1fr);gap:36px;border-top:1px solid #25363c;padding-top:30px}
+.preparation-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:42px}
+.policy-section .preparation-grid h5{font-size:18px;line-height:1.5;font-weight:500;margin:0 0 12px}
+.policy-section .preparation-grid p{font-size:14px;line-height:1.9;color:#afbdc2;margin:0}
+.review-calendar{margin-top:50px}
+.review-calendar ol{list-style:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:42px;margin:0;padding:0}
+.review-calendar li>span{font-family:'Study Oxanium',sans-serif;color:#64efc6;font-size:16px;letter-spacing:.04em}
+.policy-section .review-calendar p{font-size:20px;line-height:1.7;font-weight:400;margin:12px 0 0;white-space:nowrap}
+.review-calendar p>span{color:#649e96;margin:0 9px;font-size:15px}
+@media(max-width:1100px){.award-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 36px}.award{padding-right:10px}.award+.award{border-left:0;padding-left:0}.award:nth-child(n+3){border-top:1px solid #25363c;padding-top:30px}.award-amount{font-size:44px!important}.award-status{top:125px!important}.certification-grid{gap:36px}.certification{gap:18px}.review-preparation,.review-calendar{grid-template-columns:1fr;gap:24px}.preparation-grid,.review-calendar ol{gap:32px}}
+@media(max-width:760px){.policy-section{padding-block:76px}.policy-section .policy-title{font-size:clamp(30px,7.5vw,42px);line-height:1.55}.policy-block{margin-top:44px}.policy-section .policy-subtitle{font-size:26px;margin-bottom:28px;padding-bottom:18px;gap:6px 12px}.policy-subtitle>span{font-size:15px}.policy-subtitle:after{width:32px}.recognition-section .review-block{margin-top:68px}.award-grid{grid-template-columns:1fr;gap:0}.award,.award+.award{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:0 20px;padding:26px 0 20px}.award+.award{border-top:1px solid #25363c}.policy-section .award h4{font-size:19px}.policy-section .award-amount{font-size:36px!important;margin:0}.award ul{grid-column:1/-1;font-size:14px;line-height:1.85;margin-top:22px}.award li{padding-left:12px}.policy-section .award-status{position:static;grid-column:1/-1;font-size:12px;margin-top:8px;text-align:right}.award-common{display:block;padding-block:18px}.policy-section .award-common p{display:block;margin-top:10px;font-size:12px}.award-common p>span{display:block;margin-top:5px}.award-common p>span:before{display:none}.certification-block{margin-top:68px}.certification-grid{grid-template-columns:1fr;gap:36px}.certification{gap:24px;padding-top:22px}.policy-section .certification h4{font-size:19px}.policy-section .certification p{font-size:14px}.certification-level{font-size:52px}.review-unit>span{display:block;margin:0 0 7px}.review-flow{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 0;margin:40px 0 50px}.review-flow li:nth-child(3){padding-left:0}.review-flow li:nth-child(3):before{left:0}.policy-section .review-flow h4{font-size:20px}.preparation-grid{grid-template-columns:1fr;gap:26px}.review-preparation,.review-calendar{padding-top:24px}.review-calendar ol{grid-template-columns:1fr;gap:24px}.review-calendar li{display:flex;align-items:baseline;justify-content:space-between;gap:20px}.policy-section .review-calendar p{font-size:18px;margin:0}.policy-section .preparation-grid p{max-width:30em}}

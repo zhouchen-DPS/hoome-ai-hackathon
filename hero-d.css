@@ -1,0 +1,52 @@
+/* Approved D hero only. Existing media, scroll choreography and continuous
+   flow use the unchanged .hero-copy and text-protection hooks. */
+.hero-copy.hero-direction-d{
+  --hero-font:'Study Noto','Microsoft YaHei',sans-serif;
+  --hero-latin:'Study Michroma',sans-serif;
+  --hero-accent:#23fdc5;
+  padding-top:25svh;
+  color:#f3f7f8;
+}
+.hero-direction-d .hero-axis{border:0;padding-left:0}
+.hero-direction-d h1{font:400 1em/1 var(--hero-font);letter-spacing:normal;word-spacing:normal;margin:0;max-width:none}
+.hero-direction-d h1 .event-name{display:block;font:500 1.2vw/1 var(--hero-font);letter-spacing:.44em;color:#b6c6d2;margin:0 0 2.3vw}
+.hero-direction-d .hero-event-line{display:flex;align-items:flex-end;gap:clamp(18px,1.528vw,26px);white-space:nowrap;color:#f3f7f8}
+/* Reuse the unchanged 字由点字倔强黑 artwork through two CSS windows.
+   Visible source bounds: AI x249..680, 黑客松 x971..2136, y86..450.
+   One em equals the original painted height; both windows use identical scale. */
+.hero-direction-d .hero-title-art{display:flex;align-items:stretch;flex:none;gap:clamp(16px,1.528vw,26px);height:1em;font-size:calc(41vw * 364 / 1887);line-height:1}
+.hero-direction-d .hero-title-fragment{display:block;position:relative;flex:none;height:1em;overflow:hidden}
+.hero-direction-d .hero-title-ai{width:1.184066em}
+.hero-direction-d .hero-title-cn{width:3.200549em;color:var(--hero-accent)}
+.hero-direction-d .hero-title-art img{position:absolute;display:block;max-width:none;width:6.593407em;height:auto;top:-.236264em}
+.hero-direction-d .hero-title-ai img{left:-.684066em}
+.hero-direction-d .hero-title-cn img{left:-2.667582em}
+/* Keep the artwork visible. Tint its pixels directly instead of hiding it
+   behind a separately loaded CSS mask; a failed filter leaves a readable image. */
+.hero-direction-d .hero-title-cn img{filter:url('#hero-title-mint')}
+.hero-direction-d .hero-competition{font:500 calc(41vw * 182 / 1887)/1 var(--hero-font);letter-spacing:.08em;margin:0}
+.hero-direction-d .hero-motto{font:400 2.3vw/1.15 var(--hero-latin);letter-spacing:.06em;margin:2vw 0 0;color:#c4d3dc;white-space:nowrap}
+.hero-direction-d .hero-motto>span{color:var(--hero-accent)}
+.hero-direction-d .hero-description{font:400 max(13px,1.05vw)/1.95 var(--hero-font);letter-spacing:.025em;color:#b8c8d2;margin:2vw 0 0;max-width:none}
+.hero-direction-d .hero-actions{gap:48px;margin-top:2vw}
+.hero-direction-d .button,.hero-direction-d .text-link{font:500 max(12px,.95vw)/1.4 var(--hero-font);white-space:nowrap;min-height:43px;gap:2vw}
+.hero-direction-d .button{padding:12px 18px;border:1px solid var(--hero-accent);background:var(--hero-accent);color:#0b2824}
+.hero-direction-d .button:hover{background:#5dffd5;border-color:#5dffd5}
+.hero-direction-d .text-link{justify-content:space-between;padding:10px 0;color:#b8c8d2;border-bottom:1px solid #91a8b7;text-decoration:none}
+.hero-direction-d .text-link:hover{color:#f3f7f8;border-color:#f3f7f8}
+@media(min-width:1600px){.hero-direction-d .hero-description{font-size:16px}.hero-direction-d .button,.hero-direction-d .text-link{font-size:14px;min-height:49px}}
+@media(max-height:780px) and (min-width:801px){.hero-copy.hero-direction-d{padding-top:max(115px,20svh)}.hero-direction-d .hero-axis{transform:scale(.9);transform-origin:top left}.hero-direction-d .hero-description{font-size:15px}.hero-direction-d .button,.hero-direction-d .text-link{font-size:14px}}
+@media(max-width:800px){
+  .hero-copy.hero-direction-d{padding-top:max(150px,25svh)}
+  .hero-direction-d h1 .event-name{font-size:14px;letter-spacing:.18em;margin-bottom:23px}
+  .hero-direction-d .hero-event-line{gap:clamp(8px,2.5vw,12px)}
+  .hero-direction-d .hero-title-art{font-size:calc(67vw * 364 / 1887);gap:clamp(10px,3.08vw,16px)}
+  .hero-direction-d .hero-competition{font-size:calc(67vw * 182 / 1887)}
+  .hero-direction-d .hero-motto{font-size:5vw;letter-spacing:.025em;margin-top:27px}
+  .hero-direction-d .hero-description{font-size:13px;line-height:2;margin-top:23px}
+  .hero-direction-d .hero-actions{gap:24px;margin-top:25px}
+  .hero-direction-d .button{font-size:12px;padding-inline:12px;gap:12px}
+  .hero-direction-d .text-link{font-size:11px;gap:12px}
+}
+@media(max-height:600px) and (min-width:801px){.hero-copy.hero-direction-d{padding-top:100px}.hero-direction-d .hero-axis{transform:scale(.78)}}
+@media(max-width:360px){.hero-direction-d .hero-actions{flex-wrap:wrap}}

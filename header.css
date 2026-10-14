@@ -1,0 +1,46 @@
+/* The supplied transparent artwork stays intact; the window removes empty margins. */
+.site-header .brand{gap:22px;flex:none}
+.brand-logo{display:block;position:relative;width:128px;aspect-ratio:2227/630;overflow:hidden;flex:none}
+.brand-logo img{position:absolute;display:block;width:126.3134%;height:auto;max-width:none;left:-15.1774%;top:-44.9206%}
+.site-header .brand-caption{display:block;border-left:1px solid #607178;padding-left:22px;white-space:nowrap;font-size:11px;letter-spacing:.12em}
+.site-header nav{gap:32px}
+.site-header nav>a.ai-platform-link{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:42px;padding:10px 16px;border:1px solid #64efc680;background:#64efc612;color:#64efc6;white-space:nowrap;transition:background .2s,border-color .2s,color .2s}
+.site-header nav>a.ai-platform-link:hover{background:#64efc6;border-color:#64efc6;color:#062419}
+.ai-platform-link svg{width:15px;height:15px}
+.contact-trigger{padding:10px 0;background:none;border:0;cursor:pointer;font:inherit;white-space:nowrap;transition:color .2s}
+.contact-trigger:hover,.contact-trigger:focus-visible{color:var(--accent)}
+.contact-dialog{position:fixed;inset:0;margin:auto;padding:38px 40px 36px;width:min(600px,calc(100% - 64px));max-height:calc(100svh - 64px);overflow:auto;background:#061116;color:#edf7ff;border:1px solid #395858;font-family:'Mission Sans','Microsoft YaHei',sans-serif;box-shadow:0 24px 100px #0009}
+.contact-dialog::backdrop{background:#01060bd9}
+.contact-dialog[open]{animation:contact-enter 220ms cubic-bezier(.22,1,.36,1)}
+@keyframes contact-enter{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.contact-dialog-heading{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.contact-dialog-heading h2{font-family:inherit;font-size:32px;font-weight:500;line-height:1.5;letter-spacing:0;color:#edf7ff}
+
+.contact-intro{font-size:14px;color:#afbdc2;line-height:1.8;margin:16px 0 0}
+.contact-close{display:flex;align-items:center;justify-content:center;width:40px;height:40px;margin-right:-8px;background:none;border:0;cursor:pointer;color:var(--muted)}
+.contact-close:hover{color:var(--accent)}
+.contact-close svg{width:20px;height:20px}
+.contact-groups{margin:28px 0 0;padding:0}.contact-groups>div{display:grid;grid-template-columns:105px minmax(0,1fr);gap:24px;align-items:baseline;border-top:1px solid #4c6f70;padding:20px 0}.contact-groups>div:last-child{padding-bottom:0}.contact-groups dt{font-size:14px;line-height:1.8;color:#afbdc2}.contact-groups dd{font-size:19px;line-height:1.8;color:#edf7ff;margin:0}
+
+@media(min-width:901px) and (max-width:1100px){
+  .site-header{gap:20px}
+  .site-header nav{gap:22px;font-size:12px}
+  .site-header .brand{gap:17px}
+  .site-header .brand-caption{padding-left:17px;font-size:10px}
+  .brand-logo{width:112px}
+}
+@media(max-width:900px){
+  .site-header,.site-header.scrolled{height:76px;padding:16px 6%;gap:16px}
+  .site-header .brand{gap:14px}
+  .brand-logo{width:102px}
+  .site-header .brand-caption{padding-left:14px;font-size:9px;letter-spacing:.08em}
+  .site-header .menu-toggle{display:flex;align-items:center;gap:8px;border:0;background:none;cursor:pointer;font-size:12px;padding:8px 0}
+  .site-header nav{display:none;position:absolute;left:0;right:0;top:100%;background:#08161b;border-bottom:1px solid var(--line);padding:12px 6% 20px;gap:0}
+  .site-header nav.is-open{display:flex;flex-direction:column;align-items:stretch}
+  .site-header nav>a,.site-header .contact-trigger{padding:13px 0;text-align:left;font-size:13px}
+  .site-header nav>a.ai-platform-link{align-self:flex-start;margin-top:12px;padding:11px 16px}
+}
+@media(prefers-reduced-motion:reduce){.site-header nav>a.ai-platform-link{transition:none}}
+@media(max-width:760px){.contact-dialog{width:calc(100% - 28px);max-height:calc(100svh - 36px);padding:24px 23px 28px}.contact-dialog-heading h2{font-size:26px}.contact-intro{font-size:13px;margin-top:12px}.contact-groups{margin-top:24px}.contact-groups>div{grid-template-columns:1fr;gap:8px;padding-top:18px}.contact-groups dd{font-size:18px}}
+@media(prefers-reduced-motion:reduce){.contact-dialog[open]{animation:none}}
+@media(max-width:360px){.brand-logo{width:88px}.site-header .brand{gap:10px}.site-header .brand-caption{padding-left:10px;font-size:8px}}

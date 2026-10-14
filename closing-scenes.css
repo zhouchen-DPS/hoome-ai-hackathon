@@ -1,0 +1,21 @@
+@font-face{font-family:Closing Sans;src:url('assets/typography/closing-sans.woff2') format('woff2');font-style:normal;font-weight:600;font-display:swap}
+
+/* Final statements share the existing left text axis and camera timing. */
+.story-copy.closing-story{top:50%}
+.closing-story .story-title{width:max-content;max-width:100%;transform:translateY(-50%);letter-spacing:0;text-shadow:0 2px 24px #02050d80}
+.closing-story [data-story-line]{display:block;width:max-content;max-width:100%;white-space:nowrap}
+.work-copy .story-title{font-family:Closing Sans,'Hoome Chinese',sans-serif;font-weight:600}
+.work-copy .work-label{font-size:clamp(24px,2.2222vw,43px);line-height:1.25;color:#aabbc9}
+.work-copy .work-statement{margin-top:18px;font-size:clamp(36px,3.6111vw,69px);line-height:1.3;color:#edf7ff}
+.work-copy .work-value{color:#57dfff}
+.closing-latin{font-family:'Study Oxanium',sans-serif;font-weight:600}
+.work-label .closing-latin{margin-right:.1em}
+.work-statement .closing-latin{margin-inline:.1em}
+.arrival-copy.closing-story .story-title{font-family:'Study Oxanium',sans-serif;font-weight:600;line-height:1.12;letter-spacing:.015em}
+.arrival-copy .arrival-address{font-size:clamp(32px,3.6111vw,64px);color:#edf7ff}
+.arrival-copy .arrival-invitation{margin-top:16px;font-size:clamp(26px,2.7778vw,52px);color:#edf7ff}
+.arrival-copy .arrival-maker{margin-top:8px;font-size:clamp(56px,6.1111vw,112px);line-height:1.04;color:#51ffd0}
+@media(max-height:700px) and (min-width:901px){
+  .work-copy .work-statement{margin-top:14px}
+  .arrival-copy .arrival-invitation{margin-top:16px}
+}

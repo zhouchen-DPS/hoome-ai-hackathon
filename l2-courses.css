@@ -1,0 +1,32 @@
+.l2-course-trigger{padding:10px 0;border:0;background:none;color:inherit;white-space:nowrap;cursor:pointer;font:inherit;transition:color .2s}
+.l2-course-trigger:hover,.l2-course-trigger:focus-visible{color:#64efc6}
+.l2-course-dialog{position:fixed;inset:0;margin:auto;width:min(1200px,calc(100% - 64px));max-height:calc(100svh - 64px);overflow:auto;padding:42px 44px 30px;border:1px solid #395858;background:#061116;color:#edf7ff;font-family:'Mission Sans','Microsoft YaHei',sans-serif;box-shadow:0 24px 100px #0009}
+.l2-course-dialog::backdrop{background:#01060bd9}
+.l2-course-header{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.l2-course-header h2{font:500 clamp(25px,2.5vw,34px)/1.5 'Mission Sans',sans-serif;letter-spacing:0;margin:0}
+.l2-course-header h2>span{color:#64efc6}
+.l2-course-close{display:flex;align-items:center;justify-content:center;flex:none;width:40px;height:40px;margin-right:-10px;border:0;background:none;color:#afbdc2;cursor:pointer}
+.l2-course-close:hover{color:#64efc6}
+.l2-course-close svg{width:22px;height:22px}
+.l2-course-dialog .l2-course-description{font-size:15px;line-height:1.9;color:#afbdc2;margin:20px 0 0}
+.l2-course-timeline{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));list-style:none;padding:0;margin:46px 0 0}
+.l2-course-timeline li{position:relative;min-width:0;display:flex;flex-direction:column;text-align:center}
+.l2-course-copy{padding:0 8px;min-height:105px}
+.l2-course-number{display:block;font-family:'Study Oxanium','Mission Sans',sans-serif;font-size:12px;color:#91d5e2;margin-bottom:10px}
+.l2-course-timeline h3{font-size:19px;line-height:1.5;font-weight:500;margin:0;color:#edf7ff;letter-spacing:0}
+.l2-course-copy p{font-size:13px;line-height:1.7;margin:8px 0 0;color:#afbdc2}
+.l2-course-node{position:relative;display:block;height:1px;margin:19px 0 26px;background:#64efc663}
+.l2-course-timeline li:first-child .l2-course-node{background:linear-gradient(90deg,transparent 0 50%,#64efc663 50%)}
+.l2-course-timeline li:last-child .l2-course-node{background:linear-gradient(90deg,#64efc663 0 50%,transparent 50%)}
+.l2-course-node:after{content:'';position:absolute;top:-5px;left:calc(50% - 5px);width:11px;height:11px;border:1px solid #64efc6;border-radius:50%;background:#64efc6}
+.l2-course-dialog .l2-course-date{font:500 clamp(13px,1.3vw,17px)/1.6 'Study Oxanium',sans-serif;white-space:nowrap;color:#64efc6;margin:0}
+.l2-course-actions{display:flex;justify-content:center;border-top:1px solid #253c40;padding-top:26px;margin-top:38px}
+.l2-course-enroll{display:inline-flex;align-items:center;justify-content:center;gap:26px;min-width:168px;min-height:48px;padding:13px 24px;border:1px solid #64efc6;background:#64efc6;color:#062419;font:500 15px/1.4 'Mission Sans',sans-serif;transition:background .18s,border-color .18s,transform .18s}
+.l2-course-enroll svg{width:17px;height:17px;transition:transform .18s}
+.l2-course-enroll:hover{background:#99f6da;border-color:#99f6da;transform:translateY(-2px)}
+.l2-course-enroll:hover svg{transform:translate(2px,-2px)}
+.l2-course-enroll:focus-visible{outline:2px solid #edf7ff;outline-offset:5px}
+.l2-course-enroll:active{transform:translateY(0)}
+@media(max-width:900px){.site-header .l2-course-trigger{padding:13px 0;text-align:left;font-size:13px}}
+@media(max-width:760px){.l2-course-dialog{width:calc(100% - 28px);max-height:calc(100svh - 36px);padding:24px 23px}.l2-course-header{gap:10px}.l2-course-header h2{font-size:24px}.l2-course-dialog .l2-course-description{font-size:13px;margin-top:14px}.l2-course-timeline{display:block;margin-top:30px}.l2-course-timeline li{display:grid;grid-template-columns:1fr;text-align:left;padding:0 0 28px 23px;border-left:1px solid #64efc663;margin-left:5px}.l2-course-timeline li:last-child{border-left-color:transparent;padding-bottom:0}.l2-course-copy{min-height:0;padding:0}.l2-course-number{margin-bottom:5px}.l2-course-timeline h3{font-size:18px}.l2-course-copy p{margin-top:5px}.l2-course-node,.l2-course-timeline li:first-child .l2-course-node,.l2-course-timeline li:last-child .l2-course-node{position:absolute;top:7px;left:-1px;margin:0;width:0;height:0;background:none}.l2-course-node:after{left:-5px;top:0}.l2-course-dialog .l2-course-date{font-size:14px;margin-top:10px}.l2-course-actions{margin-top:28px;padding-top:22px}.l2-course-enroll{width:100%}}
+@media(prefers-reduced-motion:reduce){.l2-course-trigger,.l2-course-enroll,.l2-course-enroll svg{transition:none}.l2-course-enroll:hover,.l2-course-enroll:hover svg{transform:none}}
